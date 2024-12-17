@@ -1,20 +1,15 @@
 import pygame
 import random
-# Initialize Pygame
 pygame.init()
-# Set up display
 width, height = 800, 600
 window = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Snake, Water, Gun')
-# Load images
 snake_img = pygame.image.load('snake.png')
 water_img = pygame.image.load('water.png')
 gun_img = pygame.image.load('gun.png')
 images = {"snake": snake_img, "water": water_img, "gun": gun_img}
-# Define colors
 white = (255, 255, 255)
 black = (0, 0, 0)
-# Game variables
 choices = ["snake", "water", "gun"]
 you_choice = None
 computer_choice = None
@@ -28,8 +23,6 @@ running = True
 
 while running:
     window.fill(white)
-    
-    # Display choices
     window.blit(snake_img, (100, 100))
     window.blit(water_img, (300, 100))
     window.blit(gun_img, (500, 100))
@@ -49,11 +42,9 @@ while running:
             if you_choice:
                 computer_choice = random.choice(choices)
                 
-                # Display choices
                 window.blit(images[you_choice], (150, 400))
                 window.blit(images[computer_choice], (500, 400))
                 
-                # Determine winner
                 you = you_choice
                 computer = computer_choice
                 if you == computer:
