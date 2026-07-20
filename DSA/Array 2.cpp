@@ -4,7 +4,7 @@ using namespace std;
 void CreateArray(int* arr,int size){
     for(int i=0;i<size;i++){
         cout<<"Element "<<""<<i+1<<": ";
-        cin>>arr[i];    
+        cin>>arr[i];   
     }
 }
 void DisplayArray(int* arr,int size){
