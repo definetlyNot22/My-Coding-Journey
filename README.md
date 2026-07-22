@@ -64,7 +64,7 @@ This repository is a running log of my learning — not a single polished projec
 
 ## 👤 Author
 **Nilanshu Tiwary**
-B.Tech CSE student, KCC Institute of Technology, Patna
+B.Tech CSE student, KCC Institute of Technology, Greater Noida, Uttar Pradesh
 GitHub: [@definetlyNot22](https://github.com/definetlyNot22)
 
 ## 📄 License
