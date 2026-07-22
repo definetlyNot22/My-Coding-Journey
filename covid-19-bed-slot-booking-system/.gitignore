@@ -1,6 +1,0 @@
-covid-bed-backend/venv/
-covid-bed-backend/__pycache__/
-covid-bed-backend/.env
-covid-bed-frontend/node_modules/
-covid-bed-frontend/dist/
-**/__pycache__/
